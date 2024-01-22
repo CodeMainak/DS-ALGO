@@ -1,0 +1,113 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */
+
+* {
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #b91816;
+  background: linear-gradient(90deg, #b91916b5 0%, #b91916d4 21%, #b91816 100%);
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  padding: 32px 64px;
+
+  box-shadow: 0px 3px 3px 0 rgba(136, 8, 8, 0.8) !important;
+}
+
+.App_header_nav_container_content {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  /* margin-right: 15px;
+  margin-left: 15px; */
+}
+
+.App_header_nav_container_content:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+.offerings_container {
+  /* height: 300px;
+  width: calc(25vw - 60px); */
+  background: #b91916b5;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0%;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  box-shadow: 10px 8px 20px #b919164b;
+}
+
+.button {
+  color: #b91816 !important;
+  border: 1px solid #b91816 !important;
+  font-weight: bold;
+  gap: 20;
+  background: white !important;
+}
+
+.button:hover {
+  /* background: rgba(205, 32, 29, 0.398) !important;
+  color: white !important;
+  border: 1px solid white !important; */
+  box-shadow: 5px 8px 10px 0 rgba(136, 8, 8, 0.8) !important;
+}
+
+.footer_container {
+  padding: 5vw;
+  margin-top: 20px;
+  background-color: #b91816;
+  background: linear-gradient(90deg, #b91816 0%, #b91916d4 21%, #b91816 100%);
+  color: white;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+}

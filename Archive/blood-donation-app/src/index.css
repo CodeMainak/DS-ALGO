@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.8em;
+
+  font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica,
+    Verdana, sans-serif;
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/007/011/187/original/world-blood-donor-day-poster-donor-blood-concept-illustration-background-for-world-blood-donor-day-free-vector.jpg"); */
+
+  margin: 0px;
+
+  padding: 0px;
+}
+
+code {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
